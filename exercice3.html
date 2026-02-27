@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 3</title>
+</head>
+<body>
+
+<script>
+const TAUX_TVA = 0.20;
+let prixHT = 150;
+
+let prixTTC = prixHT + (TAUX_TVA * prixHT);
+
+console.log(`Prix HT : ${prixHT} € | TVA (20%) : ${TAUX_TVA * prixHT} € | Prix TTC : ${prixTTC} €`);
+
+// tentative de modification de la constante (ça va provoquer une erreur)
+// TAUX_TVA = 0.25; // décommenter pour tester l'erreur
+</script>
+
+</body>
+</html>
